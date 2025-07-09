@@ -1,0 +1,62 @@
+@model Services.DTOs.Orders.OrderDetailsDTO
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        h2 {
+            margin-bottom: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+        .order-details p {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body> 
+    
+    <p> Здравейте, @Model.FirstName @Model.LastName! Вашата поръчка е приета и в момента се обработва. </p>
+
+    <h2> Поръчка </h2>
+    <table>
+        <tr>
+            <th> ПРОДУКТ </th>
+            <th> ОБЩО </th> 
+        </tr>
+        @foreach(var item in @Model.Items)
+        {
+        <tr>
+            <td> @item.Title x@(item.Quantity) </td>
+            <td> @((item.Price * item.Quantity).ToString("0.00")) лв </td> 
+        </tr>
+        }
+        <tr>
+            <td> Доставка </td>
+            <td> @Model.DeliveryPrice.ToString("0.00") лв </td>
+        </tr>
+        <tr>
+            <td> ОБЩО </td>
+            <td> @Model.TotalPrice.ToString("0.00") лв </td>
+        </tr>
+    </table>
+
+    <h2> Адрес за фактуриране </h2>
+    <div class="order-details">
+        <p>@Model.FirstName @Model.LastName</p>
+        <p>@Model.Address</p>
+        <p>@Model.Tel</p>
+        <p>@Model.Email</p>
+    </div>
+
+</body>
+</html>

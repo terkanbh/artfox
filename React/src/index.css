@@ -1,0 +1,66 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
+
+body {
+  min-height: 100vh;
+  font-family: 'Arial', 'Montserrat', sans-serif;
+  padding-bottom: 50px;
+}
+
+/* Prevents mobile view navbar page content overlap */
+@media (max-width: 768px) {
+  body {
+    padding-top: 80px;
+  }
+}
+
+/* Sonner success toast stylings */
+[data-sonner-toast][data-type="success"] {
+  background-color: #d1e7dd !important;   /* light green */
+  color: #0f5132 !important;             /* dark green text */
+}
+
+/* Sonner error toast stylings */
+[data-sonner-toast][data-type="error"] {
+  background-color: #f8d7da !important; /* light red */
+  color: #842029 !important;            /* dark red text */
+}
+
+/* Bootstrap form-control hover override */
+.form-control:focus {
+  box-shadow: 0 0 0 0.01rem rgba(13, 110, 253, 0.25);
+}
+
+/* Image Gallery small image */
+.image-gallery-image {
+  max-height: 450px !important;
+  object-fit: cover !important;
+}
+
+/* Image Gallery fullscreen image */
+.fullscreen-modal .image-gallery-image {
+  max-height: calc(100vh - 80px) !important;
+  object-fit: contain !important;
+  background: white !important;
+}
+
+/* Image Gallery thumbnail image */
+.image-gallery-thumbnail-image {
+  max-height: 50px !important;
+  object-fit: cover !important;
+}
+
+/* Image Gallery image background color */
+.fullscreen-modal {
+  background: white !important;
+}
+
+/* Image Gallery thumbnails background color */
+.image-gallery-thumbnails {
+  background: white !important;
+}
+
+/* Global h2 stylings */
+h2 {
+  text-decoration: underline;
+  color: #dc3545;
+}

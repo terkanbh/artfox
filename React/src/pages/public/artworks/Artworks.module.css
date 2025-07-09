@@ -1,0 +1,15 @@
+.title {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.current-page {
+    display: flex;
+    align-items: center;
+}

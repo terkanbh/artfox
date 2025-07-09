@@ -1,0 +1,9 @@
+.title {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.container {
+  padding-left: 12px;
+  padding-right: 12px;
+}

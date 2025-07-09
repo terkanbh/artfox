@@ -1,0 +1,17 @@
+.office-selector:hover {
+    cursor: pointer;
+}
+
+.modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.office {
+    cursor: pointer;
+    font-size: small;
+}
+
+.office:hover {
+    background-color: aliceblue;
+}

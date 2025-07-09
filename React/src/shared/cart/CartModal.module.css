@@ -1,0 +1,57 @@
+.modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.item-title {
+    margin: 0px;
+    font-size: small;
+}
+
+.item-wrapper {
+    margin: 0px 2px;
+    background-color: rgb(248, 249, 250);
+    padding: 10px 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    position: relative;
+}
+
+.remove-item-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 5px;
+
+}
+
+.price-wrapper {
+    white-space: nowrap;
+    font-size: x-large;
+    overflow: visible;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.quantity-input {
+    width: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-xs {
+    width: 30px;
+    height: 20px;
+    padding: 0px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.card-footer button, .card-footer a {
+    width: 45%;
+}

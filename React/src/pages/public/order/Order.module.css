@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .summary-heading {
+    margin-top: 16px;
+  }
+}
+
+.submit {
+  width: 100%;
+}
+
+.table tr {
+  height: 58px;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.price-th,
+.price-td {
+  text-align: right;
+}
+
+.table .title {
+  font-size: small;
+}
+
+.table .quantity {
+  font-weight: bold;
+  font-size: x-small;
+}
+
+.table .total {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.table .total-price {
+  text-align: right;
+  font-weight: bold;
+  font-size: x-large;
+  color: #dc3545;
+  white-space: nowrap;
+}

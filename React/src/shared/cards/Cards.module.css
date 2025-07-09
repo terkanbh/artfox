@@ -1,0 +1,49 @@
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgb(248, 249, 250);
+  border: none;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-title {
+  font-size: small;
+  text-align: center;
+}
+
+@media(min-width: 576px) {
+  .card-title {
+    font-size: medium;
+  }
+}
+
+.price {
+  font-weight: bold;
+  font-size: x-large;
+  color: #dc3545;
+  text-align: center;
+}
+
+.currency {
+  font-size: small;
+}
+
+.btn-container {
+  width: auto;
+}
+
+.btn {
+  width: 100%;
+}

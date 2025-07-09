@@ -1,0 +1,13 @@
+.container {
+  max-width: 600px;
+}
+
+.heading {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.btn {
+  background-color: rgb(192, 41, 39);
+  color: white;
+}

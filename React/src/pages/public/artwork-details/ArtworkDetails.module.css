@@ -1,0 +1,30 @@
+.heading {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.title {
+  margin: 0;
+  font-size: x-large;
+}
+
+.price {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+.delivery-note span {
+  text-decoration: underline;
+}
+
+.quantity-input {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quantity-input button {
+  border: none;
+}

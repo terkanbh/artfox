@@ -1,0 +1,16 @@
+.title {
+  text-decoration: underline;
+  color: #dc3545;
+}
+
+.tel {
+  color: #dc3545;
+}
+
+.query {
+  height: 150px !important;
+}
+
+.validation {
+  padding-left: 1px;
+}

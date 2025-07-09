@@ -1,0 +1,54 @@
+/* NAVBAR-MD NAVBAR-MD NAVBAR-MD NAVBAR-MD */
+/* NAVBAR-MD NAVBAR-MD NAVBAR-MD NAVBAR-MD */
+/* NAVBAR-MD NAVBAR-MD NAVBAR-MD NAVBAR-MD */
+
+.navbar-md {
+  padding: 20px
+}
+
+.navbar-toggler {
+  box-shadow: none;
+}
+
+.quote-md {
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.quote {
+  margin: 0px;
+  text-align: center;
+  font-size: small;
+  font-style: oblique;
+}
+
+.logo-md {
+  display: flex;
+}
+
+.menu-md {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.cart-md {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+/* NAVBAR-SM NAVBAR-SM NAVBAR-SM NAVBAR-SM */
+/* NAVBAR-SM NAVBAR-SM NAVBAR-SM NAVBAR-SM */
+/* NAVBAR-SM NAVBAR-SM NAVBAR-SM NAVBAR-SM */
+
+.navbar-sm {
+  background-color: #fff;
+}
+
+.modal {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.7);
+}
